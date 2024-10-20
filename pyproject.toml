@@ -1,0 +1,18 @@
+[project]
+name = "auto-assign"
+version = "0.1.0"
+description = "Iterative and mutable constraint-based scheduling."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cpmpy>=0.9.21",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+]
